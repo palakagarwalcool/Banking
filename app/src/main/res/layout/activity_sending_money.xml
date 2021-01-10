@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendingMoney"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Money to be transferred"
+        android:hint="Enter money"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transfermoney"
+        android:text="Transfer money"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
